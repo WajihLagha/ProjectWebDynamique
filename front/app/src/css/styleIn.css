@@ -1,0 +1,138 @@
+/* General reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container for the inscription form */
+.Inscription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+/* Form styling */
+.Inscription form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Form header */
+.Inscription h1 {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+/* Table styling */
+.Inscription table {
+    width: 100%;
+    margin: auto;
+}
+
+/* Table headers */
+.Inscription table tr td[colspan="2"] {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+/* Table cells */
+.Inscription table td {
+    padding: 0.5rem;
+    text-align: left;
+}
+
+/* Labels */
+.Inscription label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Inputs */
+.Inscription input[type="text"],
+.Inscription input[type="email"],
+.Inscription input[type="password"],
+.Inscription input[type="datetime-local"],
+.Inscription textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+/* Radio buttons */
+.Inscription input[type="radio"] {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+/* Button styling */
+.Inscription button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+}
+
+.Inscription button[type="reset"] {
+    background-color: #6c757d;
+}
+
+.Inscription button:hover {
+    background-color: #0056b3;
+}
+
+.Inscription button[type="reset"]:hover {
+    background-color: #5a6268;
+}
+
+/* Link styling */
+.Inscription span {
+    display: block;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.Inscription span a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.Inscription span a:hover {
+    color: #0056b3;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .Inscription {
+        padding: 1rem;
+    }
+
+    .Inscription form {
+        padding: 1.5rem;
+    }
+
+    .Inscription table {
+        font-size: 0.9rem;
+    }
+}
